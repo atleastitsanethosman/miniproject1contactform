@@ -1,0 +1,71 @@
+
+/* Set Margin and padding to zero to remove browser adds  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set standard fonts and font family for document*/
+body {
+    color: #222222;
+    font-size: 1em;
+    background-color: lightgray;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* set background size, colors for header at top of page */
+.header1 {
+  background-color: cornflowerblue;
+  position: sticky;
+  top: 0em;
+  width: 100%;
+  text-align: center;
+  padding: .01em;
+}
+
+.navigationlinks {
+  padding: 2em;
+}
+
+.navigationlinks > a{
+    padding: 2em;
+    font-size: 1em;
+    color: black;
+    display: inline;
+}
+
+#figureoflucy {
+  padding: 1em;
+  border: black solid .5em;
+  background-color: pink;
+  text-align: center;
+}
+
+.details {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.details > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.details > h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+
+#footer1 {
+  padding: 20px 0;
+  text-align: center;
+  background-color: cornflowerblue;
+  text-decoration: none;
+}
+
+#footer1 a {
+  color: #ffffff;
+}
